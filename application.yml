@@ -30,6 +30,8 @@ security:
 
 management:
   endpoints:
+    bus-refresh:
+      enabled: true
     web:
       exposure:
         include: '*'
