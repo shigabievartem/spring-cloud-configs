@@ -27,3 +27,9 @@ security:
     resource:
       jwt:
         key-uri: http://localhost:8500/uaa/oauth/token_key
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

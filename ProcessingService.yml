@@ -8,6 +8,7 @@ management:
   security:
     enabled: false
 
-management.endpoints.web.exposure.include: hystrix.stream
-
 hystrix.stream.queue.send-id: false
+
+# Test param for cloud bus
+tparam: 1
