@@ -11,4 +11,4 @@ management:
 hystrix.stream.queue.send-id: false
 
 # Test param for cloud bus
-tparam: 3
+tparam: 4
